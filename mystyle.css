@@ -1,6 +1,6 @@
 @font-face {
   font-family: myFirstFont;
-  src: url(Webpage5/Montserrat/Montserrat-Black.ttf);
+  src: url(GitHub/Webpage5/YanoneKaffeesatz-ExtraLight.ttf);
 }
 
 body{
@@ -9,25 +9,29 @@ body{
    background: repeating-linear-gradient(
   45deg,
   #ecd9c6,
-  #ecd9c6 5px,
-  #996633 12px,
-  #996633 17px
+  #ecd9c6 7px,
+  #996633 18px,
+  #996633 25px
 );
 }
 
 h1{
-  font-family: Montserrat;
   padding: 60px;
   text-align: center;
   color: #000000;
   font-size: 60px;
-  margin-bottom: 20px;
-  position: relative:
+  Margin-bottom: 5px;
+  margin-top: 2px;
 }
 
 h2{
   font-size: 24px;
   text-align: center;
+  color: #ffffff;
+}
+
+#bodytext{
+  font-size: 24px;
   color: #ffffff;
 }
 
@@ -81,6 +85,7 @@ a:hover{
 
 #slider {
     overflow: hidden;
+    margin-bottom: 36px;
 }
 
 #slider figure img {
