@@ -3,14 +3,32 @@
   src: url(Webpage5/Montserrat/Montserrat-Black.ttf);
 }
 
+body{
+   display: flex;
+   justify-content: center;
+   background: repeating-linear-gradient(
+  45deg,
+  #ecd9c6,
+  #ecd9c6 5px,
+  #996633 12px,
+  #996633 17px
+);
+}
+
 h1{
   font-family: Montserrat;
   padding: 60px;
   text-align: center;
-  color: white;
-  font-size: 40px;
+  color: #000000;
+  font-size: 60px;
   margin-bottom: 20px;
   position: relative:
+}
+
+h2{
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
 }
 
 figure{
@@ -18,21 +36,14 @@ figure{
   position: relative:
 }
 
-body{
-  position: relative;
-   display: flex;
-   justify-content: center;
-   background-color: pink;
-}
-
 #container{
   Position: relative;
-  Top: 40px;
+  Top: 100px;
   Width: 500px;
 }
 
 #content-box{
-  background: #4a6677;
+  background: #992600;
   Padding: 15px;
   Margin-bottom: 15px;
 }
@@ -49,12 +60,12 @@ ul{
 
 a{
   Text-decoration: none;
-  Background: #FFF;
+  Background: #f2f2f2;
   Padding: 16px;
 }
 
 a:hover{
-  Background: #b4b4b4;
+  Background: #996600;
 }
 
 #slider {
@@ -71,6 +82,7 @@ a:hover{
 #slider {
     overflow: hidden;
 }
+
 #slider figure img {
     width: 20%;
     float: left;
