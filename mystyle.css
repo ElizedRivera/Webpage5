@@ -1,6 +1,6 @@
 @font-face {
   font-family: myFirstFont;
-  src: url(GitHub/Webpage5/YanoneKaffeesatz-ExtraLight.ttf);
+  src: url(Roboto/Roboto-ThinItalic.ttf);
 }
 
 body{
@@ -16,6 +16,7 @@ body{
 }
 
 h1{
+  font-family: Roboto;
   padding: 60px;
   text-align: center;
   color: #000000;
