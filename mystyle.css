@@ -92,7 +92,7 @@ a:hover{
     width: 500%;
     margin: 0;
     left: 0;
-    animation: 35s slider infinite;
+    animation: 15s slider infinite;
 }
 
 #slider {
