@@ -8,6 +8,11 @@
   src: url(fonts/Roboto/Roboto-ThinItalic.ttf);
 }
 
+@font-face {
+  font-family: myThirdFont;
+  src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
 body{
   font-family: mySecondFont;
    display: flex;
@@ -32,6 +37,7 @@ h1{
 }
 
 h2{
+  font-family: myThirdFont;
   font-size: 24px;
   text-align: center;
   color: #ffffff;
