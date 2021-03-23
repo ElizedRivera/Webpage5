@@ -14,7 +14,7 @@
 }
 
 body{
-  font-family: mySecondFont;
+   font-family: mySecondFont;
    display: flex;
    justify-content: center;
    background: repeating-linear-gradient(
@@ -59,10 +59,21 @@ figure{
   Width: 500px;
 }
 
+#butterfly-image{
+  display: flex;
+  justify-content: left;
+}
+
+#butterfly-image img{
+  width: 250px;
+  height: 250px;
+}
+
 #content-box{
   background: #ffffff;
   Padding: 15px;
   Margin-bottom: 15px;
+  box-shadow: 10px 10px 8px #888888;
 }
 
 ul{
