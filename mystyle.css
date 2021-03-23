@@ -1,19 +1,15 @@
 @font-face {
   font-family: myFirstFont;
-  src: url(Roboto/Roboto-Black.ttf;
+  src: url(fonts/Roboto/Roboto-Black.ttf);
 }
 
 @font-face {
   font-family: mySecondFont;
-  src: url(Roboto/Roboto-Light.ttf);
-}
-
-@font-face {
-  font-family: myThirdFont;
-  src: url(Roboto/Roboto-Regular.ttf);
+  src: url(fonts/Roboto/Roboto-ThinItalic.ttf);
 }
 
 body{
+  font-family: mySecondFont;
    display: flex;
    justify-content: center;
    background: repeating-linear-gradient(
@@ -26,7 +22,8 @@ body{
 }
 
 h1{
-  font-family: 'Roboto', sans-serif;  padding: 60px;
+  font-family: myFirstFont;
+  padding: 60px;
   text-align: center;
   color: #000000;
   font-size: 60px;
@@ -35,7 +32,6 @@ h1{
 }
 
 h2{
-  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   text-align: center;
   color: #ffffff;
@@ -74,7 +70,6 @@ ul{
 }
 
 a{
-  font-family: 'Roboto', sans-serif;
   Background: #f2f2f2;
   Padding: 16px;
 }
