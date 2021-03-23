@@ -19,10 +19,10 @@ body{
    justify-content: center;
    background: repeating-linear-gradient(
   45deg,
-  #ffe6cc,
-  #ffe6cc 14px,
-  #ffe6e6 18px,
-  #ffe6e6 25px
+  #f2e6ff,
+  #f2e6ff 10px,
+  #e6b3ff 15px,
+  #e6b3ff 25px
 );
 }
 
@@ -40,12 +40,12 @@ h2{
   font-family: myThirdFont;
   font-size: 24px;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
 }
 
 #bodytext{
   font-size: 18px;
-  color: #ffffff;
+  color: #000000;
 }
 
 figure{
@@ -60,7 +60,7 @@ figure{
 }
 
 #content-box{
-  background: #992600;
+  background: #ffffff;
   Padding: 15px;
   Margin-bottom: 15px;
 }
@@ -81,23 +81,20 @@ a{
 }
 
 a:hover{
-  Background: #ffcccc;
+  Background: #e6b3ff;
 }
 
-#slider {
-    overflow: hidden;
-}
 #slider figure {
     position: relative;
     width: 500%;
     margin: 0;
     left: 0;
-    animation: 15s slider infinite;
+    animation: 19s slider infinite;
 }
 
 #slider {
     overflow: hidden;
-    margin-bottom: 36px;
+    Margin-bottom: 15px;
 }
 
 #slider figure img {
