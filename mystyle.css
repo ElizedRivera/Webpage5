@@ -1,6 +1,16 @@
 @font-face {
   font-family: myFirstFont;
-  src: url(Roboto/Roboto-ThinItalic.ttf);
+  src: url(Roboto/Roboto-Black.ttf;
+}
+
+@font-face {
+  font-family: mySecondFont;
+  src: url(Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: myThirdFont;
+  src: url(Roboto/Roboto-Regular.ttf);
 }
 
 body{
@@ -8,16 +18,15 @@ body{
    justify-content: center;
    background: repeating-linear-gradient(
   45deg,
-  #ecd9c6,
-  #ecd9c6 7px,
-  #996633 18px,
-  #996633 25px
+  #ffe6cc,
+  #ffe6cc 14px,
+  #ffe6e6 18px,
+  #ffe6e6 25px
 );
 }
 
 h1{
-  font-family: Roboto;
-  padding: 60px;
+  font-family: 'Roboto', sans-serif;  padding: 60px;
   text-align: center;
   color: #000000;
   font-size: 60px;
@@ -26,6 +35,7 @@ h1{
 }
 
 h2{
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   text-align: center;
   color: #ffffff;
@@ -64,13 +74,13 @@ ul{
 }
 
 a{
-  Text-decoration: none;
+  font-family: 'Roboto', sans-serif;
   Background: #f2f2f2;
   Padding: 16px;
 }
 
 a:hover{
-  Background: #996600;
+  Background: #ffcccc;
 }
 
 #slider {
